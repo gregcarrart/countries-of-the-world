@@ -1,0 +1,59 @@
+article {
+    padding: 15px 0;
+    display: block;
+}
+
+.article-wrapper {
+    display: block;
+    width: 100%;
+}
+
+.country {
+    margin: 0;
+}
+
+.content {
+    display: block;
+    overflow: hidden;
+    max-height: 800px;
+    transition: max-height 0.5s ease;
+    padding: 0 25px;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+}
+
+.content-title {
+    text-align: left;
+    position: relative;
+}
+
+.content-title::after {
+    content: "👇";
+    position: absolute;
+    right: 25px;
+}
+
+.content .row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .row .col-6 {
+    width: calc(50% - 20px);
+    padding: 10px;
+}
+
+.content-text {
+    text-align: left;
+}
+
+.hidden {
+    max-height: 0;
+}

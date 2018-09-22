@@ -1,0 +1,7 @@
+.country-card {
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
